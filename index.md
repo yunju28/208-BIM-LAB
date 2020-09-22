@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 這是關於BIM協同研究平台
 
 You can use the [editor on GitHub](https://github.com/yunju28/208-BIM-LAB/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
