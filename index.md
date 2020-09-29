@@ -1,3 +1,18 @@
+<ul>
+    {% for post in paginator.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
+<nav class="pagination" role="navigation">
+    {% if paginator.previous_page %}
+    <a class="previous pagination__newer btn btn-small btn-tertiary" href="{{ paginator.previous_page_path }}">&larr; 上一頁</a>
+    {% endif %}
+    <span class="page_num pagination__page-number">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <a class="next pagination__older btn btn-small btn-tertiary" href="{{ paginator.next_page_path }}">下一頁 &rarr;</a>
+    {% endif %}
+</nav>
 ## 這是關於BIM協同研究平台
 
 You can use the [editor on GitHub](https://github.com/yunju28/208-BIM-LAB/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
