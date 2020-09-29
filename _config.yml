@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+plugins: [jekyll-paginate]
+paginate: 20 # 每頁文章數
+paginate_path: "essay/page:num" # 可選，分頁鏈接
